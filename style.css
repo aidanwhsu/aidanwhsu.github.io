@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+	margin: 0;
+  padding: 0;
+}
+
+.topbar{
+	overflow: hidden;
+  font-family: Cambria;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  border-top: 3px solid darkcyan;
+  background-color: #2C2C2C;
+}
+
+.title{
+  font-size: 1.5rem;
+  margin:.5rem;
+}
+
+.topbar ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto
+}
+
+.topbar li {
+  list-style: none;
+}
+
+.topbar a{
+	padding: 0.6rem 2rem;
+	font-size: 1.5rem;
+  color: white;
+	text-decoration: none;
+	font-family: Cambria;
+  display: block;
+}
+
+.topbar a:hover {
+  	background-color: lightgray;
+}
+
+.topbar .small-icon{
+/*	float: right;*/
+	padding: 0.6rem 3rem;
+  display: flex;
+}
+
+.topbar .small-icon img{
+	width:25px;
+	height:25px;
+}
+
+@media (max-width: 845px) {
+  .topbar ul{
+    display:none;
+    flex-direction: column;
+  }
+}
+/*.intro-headers{
+  position:fixed;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 35px;
+  color:white;
+  text-align:center;
+  font-family: Cambria;
+}
+*/
+/*#project-headers{
+	padding-left: 25px;
+	position: relative;
+	top: 100px;
+}*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: gray;
+  -webkit-box: inset 0 0 6px; 
+
+}
