@@ -1,0 +1,24 @@
+:root {
+/*  --main-bg-color: #faeee7;*/
+/*fffffe*/
+  --main-bg-color: #25282e;
+  --main-navbar-color: #16181c;
+  --navbar-text-color: #FFFFFF;
+  --navbar-hover-color: #3e424a;
+  --content-text-color: #FFFFFF;
+  --content-highlight: #6b82b0;
+}
+
+.content {
+  background: var(--main-bg-color);
+  padding: 20px;
+}
+
+p, h1 {
+  color: var(--content-text-color);
+}
+
+span {
+  color: var(--content-highlight);
+  padding-left: 10px;
+}
